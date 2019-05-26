@@ -1,0 +1,1 @@
+# javascript-code-of-sum-not-click
