@@ -1,0 +1,11 @@
+  var quantity = $('#num1').val();
+  var tranpost = $('#num3').val();
+  var total = Math.round(Number(quantity)+Number(tranpost));
+  $('.total-s').val(total);
+
+$("#num1,#num3").keyup(function(){
+var quantity = $('#num1').val();
+var tranpost = $('#num3').val();
+var total = Math.round(Number(quantity)+Number(tranpost));
+$('.total-s').val(total);
+});
